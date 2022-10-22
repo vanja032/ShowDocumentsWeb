@@ -1,0 +1,278 @@
+﻿body, html
+{
+	width: 100vw;
+	height: 100vh;
+	max-width: 100vw;
+	max-height: 100vh;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	font-family: Arial, "Arial";
+}
+
+body
+{
+	background: #47193d;
+	background: linear-gradient(180deg, #47193d 0%, #e75130 100%);
+}
+
+#main_page
+{
+	width: 100vw;
+	height: 100vh;
+	max-width: 100vw;
+	max-height: 100vh;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#anchor_point_img
+{
+	max-width: 14vw;
+	height: 10vh;
+}
+
+#items_container_div
+{
+	display: block;
+	position: absolute;
+	top: 8vh;
+	left: 50%;
+	opacity: 0;
+}
+
+.items_01
+{
+	position: relative;
+	margin-left: 2.5vw;
+	font-size: 1.5vw;
+	font-family: Arial, "Arial";
+	border: 0.3vw solid white;
+	border-radius: 50vh;
+	color: white;
+	padding: 0.7vw;
+	outline: none;
+	font-weight: bold;
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+	background-color: rgba(255, 255, 255, 0);
+}
+.items_01:hover
+{
+	background-color: rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+}
+.items_01:active
+{
+	background-color: rgba(255, 255, 255, 0.6);
+	cursor: pointer;
+}
+
+#first_item_span_01
+{
+	margin: 0;
+}
+/*#second_item_span_02
+{
+	
+}
+#third_item_span_03
+{
+	
+}
+#fourth_item_span_04
+{
+	
+}
+
+#fivth_item_span_05
+{
+	
+}
+
+#iframe_01_item
+{
+	
+}
+*/
+
+#items_iframes_container_div_01
+{
+	display: none;
+	position: absolute;
+	top: 19vh;
+	left: 50%;
+	width: 70%;
+	height: 75%;
+	border: 0.5vw solid white;
+	-moz-border-radius: 4vh;
+	border-radius: 4vh;
+	overflow: hidden;
+	background-color: white;
+}
+#items_iframes_container_div_02
+{
+	display: none;
+	position: absolute;
+	top: 19vh;
+	left: 50%;
+	width: 70%;
+	height: 75%;
+	border: 0.5vw solid white;
+	-moz-border-radius: 4vh;
+	border-radius: 4vh;
+	overflow: hidden;
+	background-color: white;
+}
+#items_iframes_container_div_03
+{
+	display: none;
+	position: absolute;
+	top: 19vh;
+	left: 50%;
+	width: 70%;
+	height: 75%;
+	border: 0.5vw solid white;
+	-moz-border-radius: 4vh;
+	border-radius: 4vh;
+	overflow: hidden;
+	background-color: white;
+}
+#items_iframes_container_div_04
+{
+	display: none;
+	position: absolute;
+	top: 19vh;
+	left: 50%;
+	width: 70%;
+	height: 75%;
+	border: 0.5vw solid white;
+	-moz-border-radius: 4vh;
+	border-radius: 4vh;
+	overflow: hidden;
+	background-color: white;
+}
+#items_iframes_container_div_05
+{
+	display: none;
+	position: absolute;
+	top: 19vh;
+	left: 50%;
+	width: 70%;
+	height: 75%;
+	border: 0.5vw solid white;
+	-moz-border-radius: 4vh;
+	border-radius: 4vh;
+	overflow: hidden;
+	background-color: white;
+}
+
+div a img[src='https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png']
+{
+    display: none !important;
+}
+
+#left_menyu_images
+{
+	position: absolute;
+	top: 50%;
+	left: 5vw;
+	display: block;
+	width: 5vw;
+	opacity: 0;
+}
+
+#left_menyu_items_01_RAR
+{
+	position: relative;
+	max-width: 5vw;
+	max-height: 15vh;
+	margin-top: 19vh;
+	margin-bottom: 4vh;
+}
+#left_menyu_items_01_RAR:hover
+{
+	content: url("RAR_Logo_Icon_SVG_On_HOVER_Shaded_White.svg");
+	cursor: pointer;
+}
+#left_menyu_items_01_RAR:active
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#left_menyu_items_02_PDF
+{
+	position: relative;
+	max-width: 5vw;
+	max-height: 15vh;
+	margin-bottom: 4vh;
+	display: none;
+}
+#left_menyu_items_02_PDF:hover
+{
+	content: url("PDF_Logo_Icon_SVG_On_HOVER_Shaded_White.svg");
+	cursor: pointer;
+}
+#left_menyu_items_02_PDF:active
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#left_menyu_items_03_WORD
+{
+	position: relative;
+	max-width: 5vw;
+	max-height: 15vh;
+	margin-bottom: 4vh;
+	display: none;
+}
+#left_menyu_items_03_WORD:hover
+{
+	content: url("WORD_File_Logo_Icon_SVG_On_HOVER_Shaded_White.svg");
+	cursor: pointer;
+}
+#left_menyu_items_03_WORD:active
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+#left_menyu_items_04_VISIO
+{
+	position: relative;
+	max-width: 5vw;
+	max-height: 15vh;
+	margin-bottom: 4vh;
+	display: none;
+}
+#left_menyu_items_04_VISIO:hover
+{
+	content: url("VISIO_File_Logo_Icon_SVG_On_HOVER_Shaded_White.svg");
+	cursor: pointer;
+}
+#left_menyu_items_04_VISIO:active
+{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
